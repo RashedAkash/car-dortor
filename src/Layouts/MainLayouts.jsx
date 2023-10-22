@@ -6,7 +6,9 @@ import Footer from '../Shared/Footer/Footer';
 const MainLayouts = () => {
   return (
     <div className=' max-w-5xl mx-auto'>
-      <Navbar />
+      <div className=' fixed left-0 right-0  top-0 max-w-5xl mx-auto z-50'>
+        <Navbar />
+      </div>
       <div className='py-10'>
         <Outlet />
       </div>
